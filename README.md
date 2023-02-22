@@ -5,7 +5,7 @@ for protection of HTTP, gRPC and Websockets.
 
 - [HTTP endpoint @ https://bank.f5labs.dev](https://bank.f5labs.dev)
 - [gRPC endpoint @ https://grpc.f5labs.dev](https://grpc.f5labs.dev)
-- [Websockets endpoint @ wss://ws.f5labs.dev](wss://ws.f5labs.dev)
+- [Websockets endpoint @ wss://ws.f5labs.dev](https://ws.f5labs.dev)
 
 Baseline and performance tests are performed with [k6](https://k6.io)
 
