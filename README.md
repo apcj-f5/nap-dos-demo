@@ -1,4 +1,10 @@
-# Demonstrate L7 DoS capabilities of NGINX App Protect
+# Demonstrating L7 DoS capabilities of NGINX App Protect
+
+<br>
+
+**Maintainer:** ![@shsingh](https://avatars.githubusercontent.com/u/412800?s=15&v=4)  &emsp; **Contributor:** ![@leonseng](https://avatars.githubusercontent.com/u/26860216?s=20&v=4)
+
+<br>
 
 This repository contains the necessary files for creating NGINX App Protect DoS configuration
 for protection of HTTP, gRPC and Websockets.
@@ -68,8 +74,3 @@ default ✓ [======================================] 0/1 VUs  1m30s
 
 
 ```
-
-<br>
-<br>
-
-**Maintainer:** ![@shsingh](https://avatars.githubusercontent.com/u/412800?s=15&v=4)  &emsp; **Contributor:** ![@leonseng](https://avatars.githubusercontent.com/u/26860216?s=20&v=4)
