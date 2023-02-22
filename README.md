@@ -18,7 +18,7 @@ Monitoring logs on the host where NGINX App Protect DoS is installed should show
 
 ```bash
 
-root@scanme.f5labs.dev# tail -f /var/log/adm/admd.log
+root@bank.f5labs.dev# tail -f /var/log/adm/admd.log
 
 ADMD.Daemon0 Feb 22 03:23:02 [info] : attack started on vs<vhost-bank.f5labs.dev>, profile<vhost-bank.f5labs.dev_prof_0>, attack_id<22>, is_under_attack=<1>, arb_declared_attack<0>, health<1.50>, global_conn<10>, L7 Drop ratio=0.00000
 ADMD.Daemon0 Feb 22 03:25:26 [info] : attack ended on vs<vhost-bank.f5labs.dev> profile<vhost-bank.f5labs.dev_prof_0>, m_time_without_attack<0>
@@ -29,7 +29,7 @@ Once the baseline test is finished it should report details such as the followin
 
 ```bash
 
-root@scanme.f5labs.dev# k6 run k6/baseline/http-baseline-test.js
+root@user.f5labs.dev# k6 run k6/baseline/http-baseline-test.js
 
           /\      |‾‾| /‾‾/   /‾‾/
      /\  /  \     |  |/  /   /  /
