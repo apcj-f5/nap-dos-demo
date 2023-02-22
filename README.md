@@ -11,4 +11,5 @@ Baseline and performance tests are performed with [k6](https://k6.io)
 
 <br>
 <br>
-**Maintainer:** [![@shsingh](https://avatars.githubusercontent.com/u/412800?s=15&v=4)](https://github.com/shsingh)  &emsp; **Contributor:** [![@leonseng](https://avatars.githubusercontent.com/u/26860216?s=20&v=4)](https://github.com/leonseng)
+
+**Maintainer:** ![@shsingh](https://avatars.githubusercontent.com/u/412800?s=15&v=4)  &emsp; **Contributor:** ![@leonseng](https://avatars.githubusercontent.com/u/26860216?s=20&v=4)
