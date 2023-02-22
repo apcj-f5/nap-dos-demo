@@ -74,3 +74,21 @@ default ✓ [======================================] 0/1 VUs  1m30s
 
 
 ```
+
+NGINX App Protect DoS Dashboard will look something like the following under a load test:
+
+![NGINX App Protect DoS Dashboard during load test](nap-load-test-bank.f5labs.dev.png)
+
+Tests can also be run with 'slow HTTP DoS' with the following commands:
+
+```bash
+
+root@attacker.f5labs.dev$ slowhttptest -u https://bank.f5labs.dev
+
+```
+
+![Output during slowhttptest](slowhttptest-bank.f5labs.dev.png)
+
+Output like the following during a 'slow HTTP DoS' will be seen in the NGINX App Protect Dashboard:
+
+![NGINX App Protect DoS Dashboard during slowhttptest](nap-dos-dashboard-during-slowhttptest-bank.f5labs.dev.png)
