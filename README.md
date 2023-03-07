@@ -1,5 +1,6 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo/badge)](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo)
+[![CodeQL](https://github.com/starnowski/posmulten/workflows/CodeQL/badge.svg)](https://github.com/apcj-f5/nap-dos-demo/actions?query=workflow%3ACodeQL)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7109/badge)](https://bestpractices.coreinfrastructure.org/projects/7109)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo/badge)](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo)
 
 # Demonstrating L7 DoS capabilities of NGINX App Protect
 
