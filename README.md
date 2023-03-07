@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo/badge)](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo?style=for-the-badge)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo/badge)](https://api.securityscorecards.dev/projects/github.com/apcj-f5/nap-dos-demo)
 
 # Demonstrating L7 DoS capabilities of NGINX App Protect
 
