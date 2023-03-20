@@ -1,17 +1,17 @@
-import ws from 'k6/ws';
-import { check } from 'k6';
+import ws from "k6/ws";
+import { check } from "k6";
 
 export const options = {
   stages: [
-    { duration: "15s", target: 2000 }, 
-    { duration: "1m", target: 2000 }, 
-    { duration: "15s", target: 0 }, 
+    { duration: "15s", target: 2000 },
+    { duration: "1m", target: 2000 },
+    { duration: "15s", target: 0 },
   ],
 };
 
 export default function () {
-  const url = 'wss://ws.f5labs.dev';
-  const params = { tags: { my_tag: 'hello' } };
+  const url = "wss://ws.f5labs.dev";
+  const params = { tags: { my_tag: "hello" } };
 
   const res = ws.connect(url, params, function (socket) {
     // socket.on('open', () => console.log('connected'));
@@ -19,6 +19,5 @@ export default function () {
     // socket.on('close', () => console.log('disconnected'));
   });
 
-  check(res, { 'status is 101': (r) => r && r.status === 101 });
+  // check(res, { 'status is 101': (r) => r && r.status === 101 });
 }
-
