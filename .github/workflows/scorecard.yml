@@ -41,6 +41,7 @@ jobs:
             api.osv.dev:443
             bestpractices.coreinfrastructure.org:443
             fulcio.sigstore.dev:443
+            rekor.sigstore.dev:443
             github.com:443
             sigstore-tuf-root.storage.googleapis.com:443
           
