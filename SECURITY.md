@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Report vulnerabilities to s.singh@f5.com
+Report vulnerabilities to [ss@f5.com](mailto:ss@f5.com)
