@@ -1,4 +1,0 @@
-- name: Anchore SBOM Action
-  uses: anchore/sbom-action@v0.13.4
-  with:
-    artifact-name: sbom.spdx
