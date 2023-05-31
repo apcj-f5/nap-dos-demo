@@ -25,7 +25,7 @@ jobs:
       contents: read # for actions/checkout to fetch code
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
       actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
-    name: Code Scanning
+    name: SAST
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
@@ -39,11 +39,9 @@ jobs:
       # Checkout project source
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
       - uses: returntocorp/semgrep-action@7120226e55a1ddb7624bbf600148b716c82f2745
-        # Scan code using project's configuration on https://semgrep.dev/manage
-
         with:
           publishToken: ${{ secrets.SEMGREP_APP_TOKEN }}
-          # generateSarif: "1"
+          generateSarif: "1"
       - name: Upload semgrep SARIF to code-scanning
         uses: github/codeql-action/upload-sarif@0225834cc549ee0ca93cb085b92954821a145866 # v2.3.5
         with:
